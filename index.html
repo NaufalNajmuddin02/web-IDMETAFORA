@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDMETAFORA ERP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for WhatsApp Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/LOGOIDMETAFORA.png" alt="Logo" style="height: 50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="erpDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ERP System</a>
+                        <div class="dropdown-menu" aria-labelledby="erpDropdown">
+                            <a class="dropdown-item" href="#">Purchasing System</a>
+                            <a class="dropdown-item" href="#">WareHouse Management System</a>
+                            <a class="dropdown-item" href="#">Point Of Sales System</a>
+                            <a class="dropdown-item" href="#">Finance & Budgeting System</a>
+                            <a class="dropdown-item" href="#">Accounting System</a>
+                            <a class="dropdown-item" href="#">Legal &Administration System</a>
+                            <a class="dropdown-item" href="#">Audit System</a>
+                            <a class="dropdown-item" href="#">Tax System</a>
+                            <a class="dropdown-item" href="#">Business Intelligent</a>
+                            <a class="dropdown-item" href="#">Pharmancy Management System</a>
+                            <a class="dropdown-item" href="#">Architect Management System</a>
+                            <a class="dropdown-item" href="#">Project Management System</a>
+                            <a class="dropdown-item" href="#">Frequently Answer & Questions</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="webDevDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web Development</a>
+                        <div class="dropdown-menu" aria-labelledby="webDevDropdown">
+                            <a class="dropdown-item" href="#">Web Development Services</a>
+                            <a class="dropdown-item" href="#">Web Development Price List</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Internet Of Things</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tech News</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="companyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Company</a>
+                        <div class="dropdown-menu" aria-labelledby="companyDropdown">
+                            <a class="dropdown-item" href="about.html">About us</a>
+                            <a class="dropdown-item" href="#">Our Teams</a>
+                            <a class="dropdown-item" href="#">Career In IDMETAFORA</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="ml-3 d-flex align-items-center">
+                    <div class="btn-container">
+                        <button class="btn btn-circle">
+                            <img src="assets/images/bendera-inggris.jpg" alt="Bendera Inggris">
+                        </button>
+                        <button class="btn btn-circle">
+                            <img src="assets/images/bendera-indonesia.jpg" alt="Bendera Indonesia">
+                        </button>
+                    </div>
+                    <button class="btn btn-outline-primary btn-demo ml-2">Demo Gratis</button>
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="banner-content text-center text-black">
+                <h1 class="typing-animation large-text">SOFTWARE ERP</h1>
+                <h1 class="typing-animation delay large-text">IDMETAFORA</h1>
+                <p class="typing-animation delay-medium ">Taking Your Business to the Next Level</p>
+                <p class="typing-animation delay-medium ">Move On with IDMETAFORA! The Best Choice for ERP Software in Indonesia.</p>
+                <a href="https://wa.me/089664230232" class="btn btn-whatsapp mt-4">
+                    <i class="fab fa-whatsapp"></i> Chat via WhatsApp
+                </a>
+            </div>
+            <img src="assets/images/Gambarsliderhome.png" alt="Banner" class="img-fluid">
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light contact-navbar">
+            <div class="container justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item d-flex align-items-center mr-3">
+                        <i class="bi bi-telephone-fill contact-icon mr-2"></i>
+                        <a class="nav-link" href="tel:+628123456789">+62 812-3456-789</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <i class="bi bi-envelope-fill contact-icon mr-2"></i>
+                        <a class="nav-link" href="mailto:info@idmetafora.com">info@idmetafora.com</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="our-clients py-5">
+            <div class="container">
+                <h2 class="section-title text-center">Our Client's</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-2 col-6 mb-4">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logopertamina.jpg" alt="Client 1 Logo" class="client-logo">
+                            <p class="client-name">PT Pertamina</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/Chandra_Asri_Logo.jpg" alt="Client 2 Logo" class="client-logo">
+                            <p class="client-name">Pt Chandra Asri Pacific.tbk</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/molindo_logo.png" alt="Client 3 Logo" class="client-logo">
+                            <p class="client-name">MOLINDO Group</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/Kementerian_Perhubungan_Republik_Indonesia.png" alt="Client 4 Logo" class="client-logo">
+                            <p class="client-name">Kementerian Perhubungan Republik Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-257-kemkominfo.png" alt="Client 5 Logo" class="client-logo">
+                            <p class="client-name">Kementerian Komunikasi dan informatika</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo_brin.71f94d24.png" alt="Client 6 Logo" class="client-logo">
+                            <p class="client-name">Badan Riset Dan Inovasi Nasional </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-190-badan-tenaga-nuklir-nasional.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Badan Tenaga Nuklir Nasional</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/PT-Indocement-Tunggal-Prakarsa.jpg" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Indocement Tunggal Prakarsa</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/b-logo.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Riau Muda Group</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/th.jpg" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">PT Indonesia Power </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/WONDERFUL INDONESIA.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Badan Otorita Pengelola Danau Toba</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/Copy-of-Logo-Client-Gudangkarir-37.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Gudang Parfum Impor</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-agromix-lestari-group-new.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">AGROMIX Lestari Group</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/th (1).jpg" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">PT ELBEMA Integra Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-uny-universitas-negeri-yogyakarta.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Universitas Negeri Yogyakarta</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/Kabupaten Musi Banyuasin [koleksilogo.com].png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Pemerintah Kabupaten Musi Banyuasin</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/th (2).jpg" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">PT Piranha Multi Talenta</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/speequal.jpg" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Speequal Language Malaysia</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/dinsos.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Dinas Sosial Pemerintah Provinsi Jawa Tengah</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-bank-dhanarta.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Bank Dhanarta</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-pt-mmp.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">MMP Kaltim (BUMD Kaltim)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/small-logo-clear-290x300.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">PT Albasia Batang Sejahtera</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-text-60.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">PT Migas Kaltara Jaya Kalimantan Utara</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-bu-tjitro.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Gudeg Bu Tjitro</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-metaforaland.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Metafora Land</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/th (5).jpg" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Unison Healthcare</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/gluck.jpeg" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Glueck Manamart</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/th (7).jpg" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Universitas Islam Negeri Sunan Kalijaga Yogyakarta</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/logo-nation-insight-transparent.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Nation Insight</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-6 mb-4 hidden-client">
+                        <div class="client-box text-center">
+                            <img src="assets/images/ourclients/mubadala.png" alt="Client 7 Logo" class="client-logo">
+                            <p class="client-name">Mubadala Energy</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="show-more-btn" id="toggleClients">
+                    <span>&#x25BC;</span>
+                </button>
+            </div>
+        </section>
+        
+        <div class="circle-container ">
+            <div class="circle-wrapper p-4">
+                <div class="circle">
+                    <img src="assets/images/elips/elips1.jpg" alt="Image 1">
+                </div>
+                <p class="circle-caption">More than 200 enterprise businesses are using our ERP software solution.</p>
+            </div>
+            <div class="circle-wrapper p-4">
+                <div class="circle">
+                    <img src="assets/images/elips/elips2.jpg" alt="Image 2">
+                </div>
+                <p class="circle-caption">For over a decade, we've implemented ERP software across Indonesia's main islands and globally.</p>
+            </div>
+            <div class="circle-wrapper p-4">
+                <div class="circle">
+                    <img src="assets/images/elips/elips3.jpg" alt="Image 3">
+                </div>
+                <p class="circle-caption">We have assisted more than 1,000,000 users in our ecosystem with our technology.</p>
+            </div>
+        </div>
+
+        <section class="software-ecosystem py-5">
+            <div class="container">
+                <h2 class="section-title text-center">Our Software ERP Ecosystem</h2>
+                <div class="row justify-content-center mb-4">
+                    <div class="col-md-8 text-center">
+                        <img src="assets/images/oursoftwareerpecosistem/image.png" alt="ERP Ecosystem" class="rectangle-image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 left border-top border-right border-bottom">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/freepik-export-20240820085258CgzG.png" alt="Rectangle 1" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Purchasing System</h3>
+                                <p class="rectangle-description1">Tools that help you make a recommendation regarding quantity and price and the best supplier.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 right border-top border-right border-bottom border-left">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/gudang.png" alt="Rectangle 2" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">WareHouse Management</h3>
+                                <p class="rectangle-description1">Make you easier to manage so many product and so many locations in one dashboard.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 left border-top border-right border-bottom">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/download.png" alt="Rectangle 1" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Poin Of Sales</h3>
+                                <p class="rectangle-description1">When a transaction happens, deliver exceptional retail experiences with POS Retail.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 right border-top border-right border-bottom border-left">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/pngtree-finance-economy-tax-finance-image_2247855-removebg-preview.png" alt="Rectangle 2" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Finance & Budgeting System</h3>
+                                <p class="rectangle-description1">Tools that help you manage financial budgeting & control budgeting.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 left border-top border-right border-bottom">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/Accounting-2.png" alt="Rectangle 1" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Accounting System</h3>
+                                <p class="rectangle-description1">The system provides key insights that help a company's management team make many of their decisions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 right border-top border-right border-bottom border-left">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/bussines.png" alt="Rectangle 2" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Business Intelligence</h3>
+                                <p class="rectangle-description1">Help companies make better decisions by showing present and historical data within their business context.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 left border-top border-right border-bottom">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/tax.png" alt="Rectangle 1" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Tax System</h3>
+                                <p class="rectangle-description1">Tools that help you calculate GST, VAT, and other taxes calculation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 right border-top border-right border-bottom border-left">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/audit.png" alt="Rectangle 2" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Audit System</h3>
+                                <p class="rectangle-description1">Detect fraud internally. Helping internal management to controls and manage the company.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 left border-top border-right border-bottom">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/admin.png" alt="Rectangle 1" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Legal Administration</h3>
+                                <p class="rectangle-description1">Manage credential data in the company. Make team easier to share data with specific people who need to access it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 right border-top border-right border-bottom border-left">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/ofice.png" alt="Rectangle 2" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Office Operation Management</h3>
+                                <p class="rectangle-description1">The Operations Management System maximizes efficiency by planning, monitoring, and digitalizing workflows.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 left border-top border-right border-bottom">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/market.png" alt="Rectangle 1" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Marketplace Omnichannel</h3>
+                                <p class="rectangle-description1">Makes integration across different market channels. Manage data from various marketplaces such as Shopee, Tokopedia and various other sites in one system.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="rectangle-box1 right border-top border-right border-bottom border-left">
+                            <div class="rectangle-image-container1">
+                                <img src="assets/images/oursoftwareerpecosistem/crm.png" alt="Rectangle 2" class="rectangle-image1">
+                            </div>
+                            <div class="rectangle-text1">
+                                <h3 class="rectangle-title1">Customer Relationship Management</h3>
+                                <p class="rectangle-description1">A combination of strategies and technologies to manage customer interactions and data, aiming to improve relationships, retention, and drive sales growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us py-5">
+            <div class="banner-wrapper1">
+                <div class="banner1">
+                    <div class="banner-content1 text-center text-black">
+                        <h2>Why Choose Us as Your ERP Consultants?</h2>
+                        <p>Discover the unique benefits and reasons that make us the top choice for ERP solutions.</p>
+                    </div>
+                    <img src="assets/images/lampu.png" alt="Banner Background" class="banner-background1">
+                    <div class="circle-container1">
+                        <div class="column">
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">SECURE</h3>
+                                <div class="circle1" style="border-color: #FF0000;">
+                                    <img src="assets/images/balon/secure.png" alt="Image 1">
+                                    <p class="circle-caption1">With a high standard framework our ERP is designed with high concern for security.</p>
+                                </div>
+                            </div>
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">MAINTENANCE GUARANTY</h3>
+                                <div class="circle1" style="border-color: #00FF00;">
+                                    <img src="assets/images/balon/maintenance.png" alt="Image 2">
+                                    <p class="circle-caption1">Our team is committed to supporting every single client to customize our ERP with your business flow until it works.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">EFICIENT IN COST</h3>
+                                <div class="circle1" style="border-color: #0000FF;">
+                                    <img src="assets/images/balon/eficient-cost.png" alt="Image 3">
+                                    <p class="circle-caption1">Pay only module that your company uses.</p>
+                                </div>
+                            </div>
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">TRUSTED</h3>
+                                <div class="circle1" style="border-color: #FFA500;">
+                                    <img src="assets/images/balon/trusted.png" alt="Image 4">
+                                    <p class="circle-caption1">We are committed to making IDMETAFORA the best ERP Software in Indonesia.</p>
+                                </div>
+                            </div>
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">STRONG TEAM SUPPORT</h3>
+                                <div class="circle1" style="border-color: #800080;">
+                                    <img src="assets/images/balon/team.png" alt="Image 5">
+                                    <p class="circle-caption1">With a highly experienced team, our development team is committed to supporting your needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">CLOUD ERP</h3>
+                                <div class="circle1" style="border-color: #008000;">
+                                    <img src="assets/images/balon/cloud-erp.png" alt="Image 6">
+                                    <p class="circle-caption1">Cloud ERP provides real-time data access anywhere, on any device.</p>
+                                </div>
+                            </div>
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">SUSTAINABLE</h3>
+                                <div class="circle1" style="border-color: #FF69B4;">
+                                    <img src="assets/images/balon/sustainable.png" alt="Image 7">
+                                    <p class="circle-caption1">Our ERP framework is built for complex development and future growth.</p>
+                                </div>
+                            </div>
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">UNLIMITED USERS</h3>
+                                <div class="circle1" style="border-color: #FFD700;">
+                                    <img src="assets/images/balon/users.png" alt="Image 8">
+                                    <p class="circle-caption1">No Additional Cost Per User, you can easily add new users in ERP without getting any additional cost.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">MODULAR SYSTEM</h3>
+                                <div class="circle1" style="border-color: #DC143C;">
+                                    <img src="assets/images/balon/modular.png" alt="Image 9">
+                                    <p class="circle-caption1">We can install a custom ERP tailored to your company's size, structure, and business needs.</p>
+                                </div>
+                            </div>
+                            <div class="circle-wrapper1">
+                                <h3 class="circle-title1">EASY TO UPGRADE</h3>
+                                <div class="circle1" style="border-color: #4169E1;">
+                                    <img src="assets/images/balon/upgrade.png" alt="Image 10">
+                                    <p class="circle-caption1">You can add more ERP modules as your business grows.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="what-can-you-request py-5">
+            <h2 class="section-title text-center">What Can You Request?</h2>
+            <div class="circle-container">
+                <div class="circle-wrapper p-4">
+                    <p class="circle-caption title">What is ERP?</p>
+                    <div class="circle2">
+                        <img src="assets/images/elips/elips4.png" alt="Image 1">
+                    </div>
+                    <p class="circle-caption">More than 200 enterprise businesses are using our ERP software solution.</p>
+                </div>
+                <div class="circle-wrapper p-4">
+                    <p class="circle-caption title">Aha!</p>
+                    <div class="circle2">
+                        <img src="assets/images/elips/elips5.png" alt="Image 2">
+                    </div>
+                    <p class="circle-caption">For over a decade, we've implemented ERP software across Indonesia's main islands and globally.</p>
+                </div>
+                <div class="circle-wrapper p-4">
+                    <p class="circle-caption title">Make a robot!</p>
+                    <div class="circle2">
+                        <img src="assets/images/elips/elips6.png" alt="Image 3">
+                    </div>
+                    <p class="circle-caption">We have assisted more than 1,000,000 users in our ecosystem with our technology.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey">
+            <div class="container">
+                <h2>How Journey To Work With Us?</h2>
+                <div class="box2 red-box">
+                    <img src="assets/images/howjourny/dazzle-boy-talks-to-a-psychologist-online.png" alt="Image 1">
+                    <h3>Consultation</h3>
+                    <p>Planning and do a briefing with our team to make a custom web like you want with the best quality and worth the price.</p>
+                </div>
+                <div class="box2 blue-box">
+                    <img src="assets/images/howjourny/haze-business-men-shaking-hands-after-signing-contract-1.png" alt="Image 2">
+                    <h3>Contract Project</h3>
+                    <p>Making MoU with you and then our team will develop custom project-special like your request.</p>
+                </div>
+                <div class="box2">
+                    <img src="assets/images/howjourny/print-maintenance-work-wrench-and-screwdriver.png" alt="Image 3">
+                    <h3>Maintenance Services</h3>
+                    <p>After the project completed we will maintain your web to keep it work and minimalize error.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-section py-5">
+            <div class="container">
+                <h2 class="section-title text-center">What Our Clients Say About Our ERP?</h2>
+                <div id="clientCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-box text-center">
+                                <p class="carousel-text">"The process of making ERP for my company is very easy and fast, because it is assisted by the Idmetafora team who are experts and responsive in responding to the obstacles I experienced. After I used it for several months, this program really helped the GPI team to work more efficiently, and helped me to see and monitor business processes in detail through ERP"</p>
+                                <img src="assets/images/clienysay/Copy-of-Logo-Client-Gudangkarir-37.png" alt="Client 1" class="carousel-image">
+                                <p class="client-name">Gudang Parfum Impor</p>
+                                <img src="assets/images/clienysay/network-reviewing-online-resume-of-job-applicant.gif" alt="Client 1 GIF" class="carousel-gif">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-box text-center">
+                                <p class="carousel-text">"The service from the IDMETAFORA team is very responsive, fast and very helpful. We were helped a lot from the initial ordering process to completion. The explanation from the IDMETAFORA team really helped us and the results of the work were also very satisfying."</p>
+                                <img src="assets/images/clienysay/glue.png" alt="Client 2" class="carousel-image">
+                                <p class="client-name">Glueck Manamart</p>
+                                <img src="assets/images/clienysay/network-reviewing-online-resume-of-job-applicant.gif" alt="Client 2 GIF" class="carousel-gif">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#clientCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#clientCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section py-5">
+            <div class="container">
+                <h2 class="section-title text-center">Video About IDMETAFORA ERP: Software ERP Company From Indonesia</h2>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/UOrQV7r_fX8" 
+                            title="Video About IDMETAFORA ERP" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="latest-articles-update py-5">
+            <div class="container">
+                <h2 class="section-title text-center">Latest Article Update</h2>
+                <div class="carousel-background" style="background-image: url('assets/images/langit.jpg');">
+                    <div id="articleCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-box">
+                                    <img src="assets/images/articles/artikel1.jpg" alt="Article 1 Image" class="carousel-image">
+                                    <h3 class="article-title">News</h3>
+                                    <p class="article-text">Mengenal Quality Management System (QMS): Pengertian hingga Implementasi di Perusahaan</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-box">
+                                    <img src="assets/images/articles/arikel2.jpg" alt="Article 2 Image" class="carousel-image">
+                                    <h3 class="article-title">News</h3>
+                                    <p class="article-text">Strategi Omnichannel dan ERP: Peningkatan Efisiensi Operasional dan Pengambilan Keputusan Bisnis</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#articleCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#articleCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="your-page-link.html" class="btn btn-primary">Read More Articles</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-logo">
+                            <img src="assets/images/Logo Idmetafora Footer.png" alt="IDMETAFORA Logo" class="logo-img">
+                        </div>
+                        <div class="footer-about mt-3">
+                            <h3 class="footer-title">About Us.</h3>
+                            <p class="footer-text">
+                                IDMETAFORA is an IT Solution Company, our main business is ERP Development. We also support our clients in Internet of Things, and Web Design & Development.<br>
+                                PT Metafora Indonesia Teknologi (IDMETAFORA™) © 2014-2024
+                            </p>
+                        </div>
+                        <div class="footer-company mt-4">
+                            <h3 class="footer-title">Our Company</h3>
+                            <ul class="footer-links">
+                                <li>About Us</li>
+                                <li>Telephone: +62 896 6423 0232</li>
+                                <li>Email: info at idmetafora.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="footer-title">Website Services</h3>
+                        <ul class="footer-links">
+                            <li>Website Development</li>
+                            <li>Portfolio Website Development</li>
+                            <li>Price List Website Development</li>
+                        </ul>
+                        <h3 class="footer-title mt-3">Product ERP</h3>
+                        <ul class="footer-links">
+                            <li>Enterprise Resources Planning</li>
+                        </ul>
+                        <h3 class="footer-title mt-3">Business Services</h3>
+                        <ul class="footer-links">
+                            <li>Jasa Konsultan Bisnis</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="social-media">
+                            <h3 class="footer-title">Our Social Media</h3>
+                            <ul class="footer-links">
+                                <li><a href="#"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                                <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
+                                <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
+                                <li><a href="#"><i class="bi bi-twitter"></i> Twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="group-company">
+                            <h3 class="footer-title">Group Company</h3>
+                            <ul class="footer-links">
+                                <li><img src="assets/images/logometaforacorp.png" alt="Metafora Corp"></li>
+                                <li><img src="assets/images/logo-metaforaland.png" alt="Metafora Land"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom text-center mt-4">
+                    <p class="footer-text">
+                        Harga Emas · Home · ERP Solution · About Us · Our Work · Province Covered · Regency Covered · ERP Regency Covered · Village Covered · News · Pages · Pages IoT · Pages ERP · Pages ERP ID · Blog · Lowongan Magang di Jogja · Contact Us
+                    </p>
+                    <p class="footer-text">
+                        © 2014-2024 PT Metafora Indonesia Teknologi (IDMETAFORA™). Page rendered in 1.8462 seconds.
+                    </p>
+                    <p class="footer-text">
+                        Deriota IOT Developer · ERPORIO ERP Software · Societech Startup Enabler · ERPORI ERP Consultant · Mahafidz Information Technology Consultant · Metafora Business Consultant
+                    </p>
+                    <a href="#" class="btn btn-primary">Back to top</a>
+                </div>
+            </div>
+        </footer>
+
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script src="js/scripts.js"></script> 
+</body>
+</html>
